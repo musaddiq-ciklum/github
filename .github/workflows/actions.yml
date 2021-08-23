@@ -1,0 +1,11 @@
+name: Actions Workflow
+
+on: [push]
+
+jobs:
+  run-github-actions:
+    runs-on: ubuntu-latest
+    name: Run Commands pwd, ls
+    run: |
+      pwd
+      ls
