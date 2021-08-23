@@ -12,7 +12,7 @@ jobs:
         run: |
           node -v
           npm -v
-  run-window-command:
+  run-windows-command:
     runs-on: windows-latest
     needs: ["run-shell-command"]
     steps:
