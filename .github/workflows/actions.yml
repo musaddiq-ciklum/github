@@ -6,10 +6,6 @@ jobs:
   run-github-actions:
     runs-on: ubuntu-latest
     steps:
-      - name: Multilines Script
-        run: |
-          node -v
-          npm -v
       - name: List resources
         run: |
           pwd
