@@ -3,7 +3,7 @@ name: Shell Commands
 on: [push]
 
 jobs:
-  run-shelll-command:
+  run-shell-command:
     runs-on: ubuntu-latest
     steps:
       - name: Display a String
@@ -12,3 +12,12 @@ jobs:
         run: |
           node -v
           npm -v
+  run-window-command:
+    runs-on: windows-lates
+    needs: ["run-shell-command"]
+    steps:
+      - name: Directory Location Window
+        run: Get-Location
+      - name: Directory Location Bash
+        run: pwd
+        shell: bash
