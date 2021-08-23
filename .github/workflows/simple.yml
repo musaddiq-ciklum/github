@@ -3,7 +3,7 @@ name: Shell Commands
 on: [push]
 
 jobs:
-  run-shell-command:
+  run-shelll-command:
     runs-on: ubuntu-latest
     steps:
       - name: Display a String
