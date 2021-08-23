@@ -6,7 +6,7 @@ jobs:
   run-github-actions:
     runs-on: ubuntu-latest
     steps:
-      - name: Run Commands pwd  ls
+      - name: Run Commands pwd and ls
       - run: |
           pwd
           ls
