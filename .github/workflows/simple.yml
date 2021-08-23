@@ -13,7 +13,7 @@ jobs:
           node -v
           npm -v
   run-window-command:
-    runs-on: windows-lates
+    runs-on: windows-latest
     needs: ["run-shell-command"]
     steps:
       - name: Directory Location Window
