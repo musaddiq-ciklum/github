@@ -1,6 +1,7 @@
 {
     "name": "github-action/test",
     "description": "This project is used for testing github actions!",
+    "license": "MIT",
 
     "require-dev": {
         "squizlabs/php_codesniffer": "*",
