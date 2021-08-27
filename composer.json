@@ -1,4 +1,7 @@
 {
+    "name": "github-action/test",
+    "description": "This project is used for testing github actions!",
+
     "require-dev": {
         "squizlabs/php_codesniffer": "*",
         "overtrue/phplint": "2.0"
