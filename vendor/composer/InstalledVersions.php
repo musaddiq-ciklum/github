@@ -29,19 +29,19 @@ private static $installed = array (
     'aliases' => 
     array (
     ),
-    'reference' => '912ac26e85fdae0a2473dd4e743624a103e5d41f',
-    'name' => '__root__',
+    'reference' => 'efecd6a807f7723ef6c472a9603cc670de3f89b3',
+    'name' => 'github-action/test',
   ),
   'versions' => 
   array (
-    '__root__' => 
+    'github-action/test' => 
     array (
       'pretty_version' => 'dev-main',
       'version' => 'dev-main',
       'aliases' => 
       array (
       ),
-      'reference' => '912ac26e85fdae0a2473dd4e743624a103e5d41f',
+      'reference' => 'efecd6a807f7723ef6c472a9603cc670de3f89b3',
     ),
     'n98/junit-xml' => 
     array (
