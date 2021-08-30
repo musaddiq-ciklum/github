@@ -34,7 +34,7 @@ jobs:
     # Docs: https://getcomposer.org/doc/articles/scripts.md
 
     - name: Add Permissions
-      run: ${{ tojson(github) }} 
+      run: ${{ github.workspace }} 
 
     # - name: Run Linter
     #   run: composer lint
