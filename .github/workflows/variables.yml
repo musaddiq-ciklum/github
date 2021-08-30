@@ -20,6 +20,6 @@ jobs:
     steps:
       - name: Github vars
         run: |
-          echo "Home: ${ HOME }"
-          echo "GITHUB_WORKFLWO: ${ GITHUB_WORKFLWO }"
-          echo "GITHUB_REPOSITRY: ${ GITHUB_REPOSITRY }"
+          echo "Home: ${HOME}"
+          echo "GITHUB_WORKFLWO: ${GITHUB_WORKFLWO}"
+          echo "GITHUB_REPOSITRY: ${GITHUB_REPOSITRY}"
