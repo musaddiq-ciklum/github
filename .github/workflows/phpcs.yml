@@ -33,6 +33,9 @@ jobs:
     # Add a test script to composer.json, for instance: "test": "vendor/bin/phpunit"
     # Docs: https://getcomposer.org/doc/articles/scripts.md
 
+    - name: Add Permissions
+      run: git update-index --chmod=+x ./.github/scripts/backend_decrypt.sh
+
     - name: Run Linter
       run: composer lint
 
