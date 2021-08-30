@@ -2,9 +2,9 @@ name: Variables test
 
 on:
   push:
-    branches: [main]
+    branches: [master]
   pull_request:
-    branches: [main]
+    branches: [master]
 env:
   WF_ENV: Super global and available to all jobs
 
