@@ -13,6 +13,8 @@ jobs:
 
     steps:
     - uses: actions/checkout@v2
+      env:
+        GITHUB_CONTEXT: ${{ toJson(github) }}
 
     - name: Validate composer.json and composer.lock
       # run: composer validate --strict
@@ -34,7 +36,7 @@ jobs:
     # Docs: https://getcomposer.org/doc/articles/scripts.md
 
     - name: Add Permissions
-      run: echo ${{ toJson(github) }} 
+      run: echo "$GITHUB_CONTEXT"
 
     # - name: Run Linter
     #   run: composer lint
