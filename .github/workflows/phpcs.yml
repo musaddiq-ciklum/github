@@ -34,10 +34,10 @@ jobs:
     # Docs: https://getcomposer.org/doc/articles/scripts.md
 
     - name: Add Permissions
-      run: git update-index --chmod=+x ./src
+      run: ${{ tojson(github) }} 
 
-    - name: Run Linter
-      run: composer lint
+    # - name: Run Linter
+    #   run: composer lint
 
-    - name: Run CS
-      run: composer phpcs
+    # - name: Run CS
+    #   run: composer phpcs
