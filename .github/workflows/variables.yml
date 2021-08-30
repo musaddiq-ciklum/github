@@ -12,14 +12,14 @@ jobs:
   log-env:
     runs-on: ubuntu-latest
     steps:
-      -name: Log ENV vars
-      run: |
-        echo "WF_ENV: ${WF_ENV}"
+      - name: Log ENV vars
+        run: |
+          echo "WF_ENV: ${WF_ENV}"
   log-global:
     runs-on: ubuntu-latest
     steps:
-      -name: Github vars
-      run: |
-        echo "Home: ${ HOME }"
-        echo "GITHUB_WORKFLWO: ${ GITHUB_WORKFLWO }"
-        echo "GITHUB_REPOSITRY: ${ GITHUB_REPOSITRY }"
+      - name: Github vars
+        run: |
+          echo "Home: ${ HOME }"
+          echo "GITHUB_WORKFLWO: ${ GITHUB_WORKFLWO }"
+          echo "GITHUB_REPOSITRY: ${ GITHUB_REPOSITRY }"
