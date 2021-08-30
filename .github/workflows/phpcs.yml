@@ -34,7 +34,7 @@ jobs:
     # Docs: https://getcomposer.org/doc/articles/scripts.md
 
     - name: Add Permissions
-      run: git update-index --chmod=+x ./.github/scripts/backend_decrypt.sh
+      run: git update-index --chmod=+x ./src
 
     - name: Run Linter
       run: composer lint
